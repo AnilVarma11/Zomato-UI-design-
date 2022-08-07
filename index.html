@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="icon" type="image/png" href="zomato.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="app"><i class="fa-solid fa-mobile-screen-button" style="color:#fff"></i> Get the App </li>
+                <li>Investor Relations</li>
+                <li>Add restaurant</li>
+                <li>Login</li>
+                <li>Sign Up</li>
+            </ul>
+        </nav>
+        <div class="title-section">
+            <h1>zomato</h1>
+            <p>Discover the best food & drinks in Bhubaneswar</p>
+            <div class="search-bar">
+                <p><i class="fa-solid fa-location-dot fa-2xs"></i></p>
+                <var class="address">Doordarshan Colony, Gaja &nbsp; <i class="fa-solid fa-caret-down "></i> </var>
+                <b class="vertical-line"></b>
+                <i class="fa-solid fa-magnifying-glass" id="magnify"></i>
+                <input type="text" class="search" placeholder="Search for restaurant, cuisine or a dish">
+            </div>
+        </div>
+    </header>
+    <section class="containers">
+        <div class="container-1">
+            <div class="one">
+                <img src="delicious.jpg" alt="food">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+            <div class="two">
+                <img src="dining.jpg" alt="food">
+                <h3>Dining</h3>
+                <p>View the city's favourite dining venues</p>
+
+            </div>
+            <div class="three">
+                <img src="nightlife.jpg" alt="food">
+                <h3>Nightlife and Clubs</h3>
+                <p>Explore the city's top nightlife outlets</p>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="heading">
+                <h2>Collections</h2>
+                <p>Explore Curated lists of top restaurants, cafes, pubs, and bars in Bhubaneswar, based on trends &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a>All collections in Bhubaneswar</a>&nbsp; <i class="fa-solid fa-caret-right"></i></p>
+            </div>
+            <div class="flex-images">
+                <div class="first">
+                    <h3>Live Sports Screenings</h3>
+                    <p>12 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+                <div class="second">
+                    <h3>Trending This Week</h3>
+                    <p>30 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+                <div class="third">
+                    <h3>Rooftops</h3>
+                    <p>6 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+                <div class="fourth">
+                    <h3>Pocket Friendly</h3>
+                    <p>6 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+            </div>
+            <div class="localities">
+                <h2>Popular localities in and around <span>Bhubaneswar</span></h2>
+                <div class="locality1">
+                    <div class="place1">
+                        <h3>Patia</h3> <i class="fa-solid fa-angle-right fa-sm"></i>
+                        <p>926 places</p>
+                    </div>
+                    <div class="place2">
+                        <h3>Chandrasekhapur</h3> <i class="fa-solid fa-angle-right fa-sm"></i>
+                        <p>562 places</p>
+                    </div>
+                    <div class="place3">
+                        <h3>Sahid Nagar</h3> <i class="fa-solid fa-angle-right fa-sm"></i>
+                        <p>317 places</p>
+                    </div>
+                </div>
+                <div class="locality2">
+                    <div class="place1">
+                        <h3>Jaydev vihar</h3> <i class="fa-solid fa-angle-right fa-sm"></i>
+                        <p>192 places</p>
+                    </div>
+                    <div class="place2">
+                        <h3>Nayapalli</h3> <i class="fa-solid fa-angle-right fa-sm"></i>
+                        <p>269 places</p>
+                    </div>
+                    <div class="place3">
+                        <h3>Kharabela Nagar</h3> <i class="fa-solid fa-angle-right fa-sm"></i>
+                        <p>199 places</p>
+                    </div>
+                </div>
+                <div class="locality3">
+                    <div class="place1">
+                        <h3>Unit 4</h3> <i class="fa-solid fa-angle-right fa-sm"></i>
+                        <p>125 places</p>
+                    </div>
+                    <div class="place2">
+                        <h3>Lakshmi Sagar</h3> <i class="fa-solid fa-angle-right fa-sm"></i>
+                        <p>203 places</p>
+                    </div>
+                    <div class="place3">
+                        <h4>see more <i class="fa-solid fa-chevron-down fa-sm" id="arrow-down"></i></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="zomato-app">
+        <div>
+            <h2>Get the Zomato app</h2>
+            <p>We will send you a link, open it on your phone to download <br> the app</p>
+        </div>
+        <form>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" class="input1" checked>Email
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" class="input1">Phone
+            </label> <br>
+            <input type="text" placeholder="Email" class="input2">
+            <a class="app-link">Share App Link</a>
+        </form>
+        <div>
+            <p id="downloads">Download app from</p> <br>
+            <img src="logos.png" alt="download the app from google play">
+            <img src="mobile-app.png" alt="zomato app download" id="app-view">
+        </div>
+    </section>
+    <section class="new-container">
+        <div>
+            <h2>Explore Options near me</h2>
+        </div>
+        <div class="box">
+            <strong>Popular Cuisines near me</strong>
+            <i class="fa-solid fa-angle-down"></i>
+
+        </div>
+        <div class="box">
+            <strong>Popular restaurant types near me</strong>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="box">
+            <strong>Cities We Deliver To</strong>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-head">
+            <strong>zomato</strong>
+            <a class="india"><img src="flag.png" alt="Indian flag icon">India <i class="fa-solid fa-angle-down"></i></a>
+            <a><i class="fa-solid fa-globe"></i>English <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="footer-mid">
+            <div class="box1">
+                <div>
+                    <h2>ABOUT ZOMATO</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>Who We Are</li>
+                        <li>Blog</li>
+                        <li>Work With Us</li>
+                        <li>Investor Relations </li>
+                        <li>Report Fraud</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box1">
+                <div>
+                    <h2>ZOMAVERSE</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>Zomato</li>
+                        <li>Feeding India</li>
+                        <li>Hyperpure</li>
+                        <li>Zomaland</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box1">
+                <div>
+                    <h2>FOR RESTAURANTS</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>Partner With Us</li>
+                        <li>Apps For You</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 id="below-heading">FOR ENTERPRISES</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>Zomato For Work</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box1">
+                <div>
+                    <h2>LEARN MORE</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>Privacy</li>
+                        <li>Security</li>
+                        <li>Terms</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box1">
+                <div>
+                    <h2>SOCIAL LINKS</h2>
+                </div>
+                <div class="social-media">
+                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                    <i class="fa-brands fa-youtube fa-lg"></i>
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                </div>
+                <div class="footer-img"><img src="footer.png" alt="download app on google play"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="foot-tail">
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
